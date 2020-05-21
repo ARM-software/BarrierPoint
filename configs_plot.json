@@ -1,0 +1,22 @@
+{
+  "paths": {
+    "rootdir": "./",
+    "outpath": "./outputs",
+    "plotpath": "./plots"
+  },
+  "Application": {
+    "matrixmul":{
+      "Barriers_suffix":[
+        "sample"
+      ],
+      "Perfcntrs_suffix":[
+        "sample"
+      ]
+    }
+  },
+  "threads": [
+    4
+  ],
+  "plot_format":"pdf",
+  "Debug":false
+}

@@ -1,0 +1,15 @@
+*.o
+*.d
+*.so
+*.pyc
+simpoint
+SimPoint.3.2
+dynamorio_client/build
+benchmarks
+outputs
+plots
+__pycache__
+python-env/
+sample/matrixmul
+debug-barrierpoint.log
+debug-errorEstimate.log

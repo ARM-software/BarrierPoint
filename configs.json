@@ -1,0 +1,25 @@
+{
+  "paths": {
+    "rootdir": "./",
+    "benchpath": "./benchmarks",
+    "libspath": "./barrierpoint-libs",
+    "outpath": "./outputs"
+  },
+  "execution": {
+    "bp_identification":true,
+    "perfcntrs": true
+  },
+  "threads": [
+    4
+  ],
+  "Application":{
+    "matrixmul":""
+  },
+  "Suffix":[
+    "sample"
+    ],
+  "Debug":false,
+  "DR_iterations":10,
+  "Perfcntrs_iterations":20,
+  "dry_run":false
+}
